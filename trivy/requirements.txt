@@ -5,3 +5,4 @@
 flask==0.5     # Known for several vulnerabilities
 requests==2.19.1  # Has known security issues
 pyyaml==3.13   # Vulnerable to arbitrary code execution
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
